@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Mission — Anchor Psychiatry</title>
+  <meta name="description" content="Learn about Anchor Psychiatry's mission to provide compassionate, evidence-based psychiatric care and medication management.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ═══════════════ Navigation ═══════════════ -->
+  <nav class="site-nav" id="site-nav">
+    <div class="container">
+      <a href="index.html" class="nav-logo" aria-label="Anchor Psychiatry Home">
+        <img src="assets/logo.svg" alt="Anchor Psychiatry Logo">
+      </a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- ═══════════════ Page Header ═══════════════ -->
+  <section class="page-header">
+    <div class="container">
+      <h1>Our Mission</h1>
+      <p>The values and principles that guide everything we do.</p>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════ Mission Content ═══════════════ -->
+  <section class="section">
+    <div class="container">
+      <div class="mission-content">
+
+        <p class="mission-lead">At Anchor Psychiatry, our mission is to provide exceptional, patient-centered psychiatric care that empowers individuals to achieve lasting mental wellness through evidence-based treatment, compassionate support, and personalized medication management.</p>
+
+        <h2>Our Purpose</h2>
+        <p>We founded Anchor Psychiatry with a simple belief: that quality mental healthcare should be accessible, compassionate, and grounded in the latest clinical evidence. Our team of board-certified psychiatric nurse practitioners is dedicated to serving the Cookeville community and surrounding areas with the highest standard of psychiatric care.</p>
+        <p>We understand that seeking help for mental health concerns takes courage. That's why we've built a practice centered on trust, respect, and genuine partnership with every patient who walks through our doors.</p>
+
+        <h2>Our Approach</h2>
+        <p>We take a whole-person approach to psychiatric care, recognizing that mental health is deeply connected to every aspect of a person's life. Rather than offering one-size-fits-all solutions, we take the time to listen, understand your unique circumstances, and develop a treatment plan tailored specifically to your needs.</p>
+        <p>Our evidence-based approach combines thorough psychiatric evaluations with individualized medication management and psychotherapy. We believe in starting conservatively, monitoring closely, and adjusting thoughtfully — because your safety and well-being are always our top priority.</p>
+
+        <h2>Our Values</h2>
+        <p><strong>Compassion:</strong> We treat every patient with empathy, dignity, and respect. We create a safe, judgment-free environment where you can speak openly about your challenges and goals.</p>
+        <p><strong>Excellence:</strong> We are committed to staying at the forefront of psychiatric medicine, continuously advancing our knowledge and skills to provide the best possible care.</p>
+        <p><strong>Collaboration:</strong> We work closely with your existing healthcare providers — primary care physicians, therapists, and specialists — to ensure coordinated, holistic treatment that addresses your complete health.</p>
+        <p><strong>Accessibility:</strong> We believe that geography and circumstance should never be barriers to quality care. Through both in-person and telehealth appointments, we strive to make specialized psychiatric services available to all who need them.</p>
+
+        <h2>Our Commitment to the Community</h2>
+        <p>As members of the Cookeville community, we are invested in the well-being of our neighbors. We are committed to reducing the stigma surrounding mental health, advocating for greater access to psychiatric services, and fostering a community where seeking help is seen as a sign of strength.</p>
+        <p>Whether you are navigating a new diagnosis, managing a long-term condition, or simply looking for support during a difficult time — Anchor Psychiatry is here to be your steady foundation.</p>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════ CTA Banner ═══════════════ -->
+  <section class="cta-banner">
+    <div class="container">
+      <h2>Have Questions About Our Approach?</h2>
+      <p>We're happy to discuss how our mission translates into your care experience.</p>
+      <a href="contact.html" class="btn-outline-white">Get in Touch</a>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════ Footer ═══════════════ -->
+  <footer class="site-footer" id="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/logo.svg" alt="Anchor Psychiatry">
+          <p>Providing specialized psychiatric care and medication management in a safe, compassionate environment.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="mission.html">Mission Statement</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul class="footer-links">
+            <li><a href="tel:+19314885909">(931) 488-5909</a></li>
+            <li>406 N Whitney Ave<br>Cookeville, TN</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Anchor Psychiatry. All rights reserved.</span>
+        <span><a href="mission.html" style="color:rgba(255,255,255,0.7)">Mission Statement</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('nav-toggle').addEventListener('click', function () {
+      const links = document.getElementById('nav-links');
+      const isOpen = links.classList.toggle('open');
+      this.setAttribute('aria-expanded', isOpen);
+    });
+  </script>
+
+</body>
+</html>
