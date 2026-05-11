@@ -1,52 +1,52 @@
-/* ============================================================
-   Anchor Psychiatry Ã¢â‚¬â€ Design Tokens & Global Styles
+﻿/* ============================================================
+   Anchor Psychiatry  Design Tokens & Global Styles
    ============================================================ */
 
 :root {
-  /* Ã¢â€â‚¬Ã¢â€â‚¬ Primary Palette (derived from logo) Ã¢â€â‚¬Ã¢â€â‚¬ */
+  /* Primary Palette (derived from logo) */
   --color-primary-dark: #062f32;
-  /* deep teal Ã¢â‚¬â€ headings, nav bg      */
+  /* deep teal  headings, nav bg      */
   --color-primary: #0d4a4f;
-  /* rich teal Ã¢â‚¬â€ buttons, accents       */
+  /* rich teal  buttons, accents       */
   --color-primary-light: #1a6b6e;
-  /* medium teal Ã¢â‚¬â€ hover states         */
+  /* medium teal  hover states         */
 
-  /* Ã¢â€â‚¬Ã¢â€â‚¬ Sage / Green tones (from logo leaves) Ã¢â€â‚¬Ã¢â€â‚¬ */
+  /* Sage / Green tones (from logo leaves) */
   --color-sage: #809f96;
-  /* muted sage Ã¢â‚¬â€ borders, icons        */
+  /* muted sage  borders, icons        */
   --color-sage-light: #84aa9e;
-  /* soft seafoam Ã¢â‚¬â€ subtle accents      */
+  /* soft seafoam  subtle accents      */
   --color-sage-pale: #b5cfc6;
-  /* pale sage Ã¢â‚¬â€ card borders, dividers */
+  /* pale sage  card borders, dividers */
   --color-sage-wash: #dfeae6;
-  /* whisper sage Ã¢â‚¬â€ section backgrounds */
+  /* whisper sage  section backgrounds */
 
-  /* Ã¢â€â‚¬Ã¢â€â‚¬ Neutrals Ã¢â€â‚¬Ã¢â€â‚¬ */
+  /* Neutrals */
   --color-slate: #858f9b;
-  /* cool slate Ã¢â‚¬â€ body text secondary   */
+  /* cool slate  body text secondary   */
   --color-text: #2c3e3f;
-  /* near-black teal Ã¢â‚¬â€ body text        */
+  /* near-black teal  body text        */
   --color-text-light: #5a6b6e;
-  /* muted text Ã¢â‚¬â€ captions              */
+  /* muted text  captions              */
   --color-bg: #f7faf9;
   /* off-white with green undertone     */
   --color-white: #ffffff;
   --color-bg-alt: #eef4f2;
   /* alternate section background       */
 
-  /* Ã¢â€â‚¬Ã¢â€â‚¬ Functional Ã¢â€â‚¬Ã¢â€â‚¬ */
+  /* Functional */
   --color-accent: #3d9e8f;
-  /* teal accent Ã¢â‚¬â€ CTAs, links          */
+  /* teal accent  CTAs, links          */
   --color-accent-hover: #2f8276;
   --color-border: #d4ddd9;
   --color-shadow: rgba(6, 47, 50, 0.08);
   --color-shadow-lg: rgba(6, 47, 50, 0.12);
 
-  /* Ã¢â€â‚¬Ã¢â€â‚¬ Typography Ã¢â€â‚¬Ã¢â€â‚¬ */
+  /* Typography */
   --font-heading: 'Playfair Display', Georgia, serif;
   --font-body: 'Inter', system-ui, -apple-system, sans-serif;
 
-  /* Ã¢â€â‚¬Ã¢â€â‚¬ Spacing Ã¢â€â‚¬Ã¢â€â‚¬ */
+  /* Spacing */
   --space-xs: 0.25rem;
   --space-sm: 0.5rem;
   --space-md: 1rem;
